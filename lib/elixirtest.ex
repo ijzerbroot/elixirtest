@@ -15,4 +15,8 @@ defmodule Elixirtest do
   def hello do
     :world
   end
+
+  def stats do
+    ExErlstats.system_info
+  end
 end

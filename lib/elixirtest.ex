@@ -18,5 +18,6 @@ defmodule Elixirtest do
 
   def stats do
     ExErlstats.system_info
+    ExErlstats.stats
   end
 end
